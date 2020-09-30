@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[PRODUCTO]
 (
-[IDPROD] [int] NOT NULL,
+[IDPROD] [int] NOT NULL IDENTITY(1, 1),
 [NOMPRO] [varchar] (15) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [DESPRO] [varchar] (50) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [PREPRO] [money] NOT NULL,

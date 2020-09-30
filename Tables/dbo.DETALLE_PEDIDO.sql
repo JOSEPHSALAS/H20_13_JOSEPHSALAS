@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[DETALLE_PEDIDO]
 (
-[IDDETENV] [int] NOT NULL,
+[IDDETENV] [int] NOT NULL IDENTITY(1, 1),
 [CODENV] [char] (5) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [DETPED] [varchar] (50) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [FECORD] [datetime] NOT NULL,

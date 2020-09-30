@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[PROVEEDOR]
 (
-[IDPRO] [int] NOT NULL,
+[IDPRO] [int] NOT NULL IDENTITY(1, 1),
 [NOMPRO] [varchar] (20) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [CONTPRO] [varchar] (30) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [CORPRO] [varchar] (30) COLLATE Modern_Spanish_CI_AS NOT NULL,

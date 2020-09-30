@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[CLIENTE]
 (
-[IDCLI] [int] NOT NULL,
+[IDCLI] [int] NOT NULL IDENTITY(1, 1),
 [NOMAPECLI] [varchar] (30) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [DIRCLI] [varchar] (20) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [CORCLI] [varchar] (20) COLLATE Modern_Spanish_CI_AS NOT NULL,

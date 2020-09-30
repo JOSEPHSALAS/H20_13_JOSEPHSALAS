@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[CATEGORIA]
 (
-[IDCAT] [int] NOT NULL,
+[IDCAT] [int] NOT NULL IDENTITY(1, 1),
 [NOMCAT] [varchar] (15) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [DESCAT] [varchar] (50) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [ESTACA] [char] (1) COLLATE Modern_Spanish_CI_AS NOT NULL,

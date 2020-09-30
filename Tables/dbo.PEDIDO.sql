@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[PEDIDO]
 (
-[IDPED] [int] NOT NULL,
+[IDPED] [int] NOT NULL IDENTITY(1, 1),
 [CANTPED] [int] NOT NULL,
 [PREPED] [money] NOT NULL,
 [ESTPE] [char] (1) COLLATE Modern_Spanish_CI_AS NOT NULL

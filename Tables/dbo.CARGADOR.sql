@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[CARGADOR]
 (
-[IDCAR] [int] NOT NULL,
+[IDCAR] [int] NOT NULL IDENTITY(1, 1),
 [NOMCAR] [varchar] (15) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [CELCAR] [char] (9) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [ESTCAR] [char] (1) COLLATE Modern_Spanish_CI_AS NOT NULL,

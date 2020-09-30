@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[USUARIO]
 (
-[IDUSU] [int] NOT NULL,
+[IDUSU] [int] NOT NULL IDENTITY(1, 1),
 [NOMAPEUSU] [varchar] (20) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [CORUSU] [varchar] (15) COLLATE Modern_Spanish_CI_AS NOT NULL,
 [DIRUSU] [varchar] (15) COLLATE Modern_Spanish_CI_AS NOT NULL,
